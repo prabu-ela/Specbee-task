@@ -1,0 +1,7 @@
+custom_module.settings:
+  path: '/admin/config/system/time-zone'
+  defaults:
+    _form: \Drupal\custom_module\Form\TaskForm
+    _title: 'Time Zone'
+  requirements:
+    _permission: 'administer custom_module'

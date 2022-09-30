@@ -1,0 +1,5 @@
+custom_module.settings:
+  title: 'Time Zone'
+  parent: system.admin_config_system
+  description: 'Permission for who can access the Time Zone.'
+  route_name: custom_module.settings

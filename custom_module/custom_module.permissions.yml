@@ -1,0 +1,3 @@
+administer custom_module:
+  title: 'Administer Menu Per Role'
+  description: 'Permission for who can access the Menu Per Role forms.'

@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Contains mit_custom.module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function custom_module_theme($existing, $type, $theme, $path) {
+
+  return [
+    'timezone' => [
+      'variables' => [
+        'current_time' => NULL,
+        'current_date' => NULL,
+        'city' => NULL,
+        'country' => NULL,
+      ],
+    ],
+  ];
+}
